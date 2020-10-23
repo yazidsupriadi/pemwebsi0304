@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Makanan</title>
+
+    <style type="text/css">
+        body {
+            background-color: violet;
+        }
+        h1 {
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:black;
+        }
+        </style>
+</head>
+<body>
+
+    <div id="header" style="text-align: center; background-image: url('image/Desert.jpg');background-repeat: no-repeat
+    ;background-size: cover; padding: 200px; color: white;" >
+        <h1>Pesan makanan</h1>
+    </div>
+    <div id="order" ">
+      
+    <h1>Order Makanan</h1>  
+    <form action="/home">
+        <label for="Nama Pemesan">Nama Pemesan</label>
+        <input type="text">
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email">
+        <br><br>    
+        <label for="">Paket Pesanan</label>
+        <br><br>    
+        <label for="">Paket A</label>
+        <input type="checkbox">
+        
+        <label for="">Paket B</label>
+        <input type="checkbox">
+        <label for="">Paket C</label>
+        <input type="checkbox">
+        <br><br>
+        <label for="">Tipe Pesanan</label>
+        <br><br>
+        <label for="">Take Away</label>
+        <input type="radio" name="tipe_pesanan">
+        <label for="">Dine IN</label>
+        <input type="radio" name="tipe_pesanan">
+        
+        <br><br>
+        <label for="">Pesan buat waiter</label><br><br>
+        <textarea  cols="100" rows="10"></textarea>
+        <br><br>
+
+        <br><br>
+        <label for="">Anter Kemana -</label>
+        <select>
+            <option value="">Jakarta</option>
+            
+            <option value="">Depok</option>
+            <option value="">Tanggerang</option>
+            <option value="">Bogor</option>
+            <option value="">Bekasi</option>
+        </select>
+
+        <br><br>
+        <label for="">Tanggal pesanan</label>
+        <input type="date">
+        <br><br>
+        <label for="">Bon Pesanan</label>
+        <input type="file">
+        <br><br>
+        <input type="submit" value="pesan sekarang">
+        <br><br>
+        
+    </form>
+    </div>
+
+</body>
+</html>
