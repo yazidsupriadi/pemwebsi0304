@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+h1,#text{
+    color: blue;
+    font-size: 100px;
+}
+
+#headingtest{
+    color: rgba(197, 219, 0, 0.514);
+    font-size: 25px;
+    opacity: 100px;
+}
+
+#paragraf #belajarcss{
+    font-size: 30px;
+}
+
+.paragrafpertama{
+    background-color: yellow;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+#navbar  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li {
+    float: left;
+  }
