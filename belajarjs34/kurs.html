@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs</title>
+</head>
+<body>
+    <h1>Kurs Mata Uang</h1>
+
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nilai</th>
+                <th>valas</th>
+                <th>nilai dalam rupiah</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="number" id="nilai_kurs" value=""></td>
+                <td><button type="submit" onmouseover="dollar()">Dollar</button>
+                    <button type="submit" onmouseover="riyal()">riyal</button>
+                    <button type="submit" onmouseover="ringgit()">ringgit</button></td>
+                <td><span id="hasil"></span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="kurs.js"></script>
+</body>
+</html>

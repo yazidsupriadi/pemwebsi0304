@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat message</title>
+</head>
+<body>
+    <p>chat dari Yazid</p>
+
+    <form action="">
+        <input type="text" id="chat" value="">
+        <button type="submit" onclick="kirimpesan()">Kirim</button>
+
+    </form>
+    
+    <p id="pesan"></p>
+
+
+    <script>
+        function kirimpesan(){
+            
+        let input = document.getElementById('chat').value;
+
+            document.getElementById('pesan').innerHTML = input;
+            console.log(input)
+        }   
+
+    </script>
+</body>
+</html>

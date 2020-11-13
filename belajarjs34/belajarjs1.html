@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar JS</title>
+</head>
+<body>
+    <h1>Belajar Java Script</h1>
+    <p id="mahasiswa"></p>
+
+    <script>
+    
+    let nama = 'zaki';
+
+        
+    let nama_mahasiswa_si34 = ['zaki','kemal','uus','bayu','risma','salwa'];
+    document.getElementById("mahasiswa").innerHTML = nama_mahasiswa_si34[0];
+   
+    let mobil = {
+     merk : 'Chevrolet',
+     warna : 'merah',
+     harga : 1000000000,
+     nos : true,
+     bensin : 'shell',
+     kecepatan : 0,
+     jalan :   function(){
+         return 'mobilnya jalan';
+     },
+     senkiri : function(){
+         return ' nyalain sen kiri';
+     },
+     maju : function(){
+         return this.kecepatan + 20;
+     }
+
+    }
+   
+   console.log(mobil.merk);
+   console.log("harga mobil" + mobil.harga);
+    console.log(mobil.jalan());
+    console.log(mobil.maju());
+    </script>
+    
+</body>
+</html>

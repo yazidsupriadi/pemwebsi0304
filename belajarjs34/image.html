@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs</title>
+</head>
+<body>
+    <h1>Kurs Mata Uang</h1>
+
+
+   <select name="buah" class="buah" id="buah">
+       <option value="mangga">Mangga</option>
+       <option value="jambu">jambu</option>
+       <option value="apel">apel</option>
+       
+   </select>
+   <img src="" id="gambar">
+    <script>
+
+        let gambar = document.getElementById('buah').value;
+
+
+        function pilihGambar(){}
+        if (gambar == 'mangga'){
+            document.getElementById('gambar').src = 'mangga.jpg';
+        }else if(gambar == 'jambu'){
+            document.getElementById('gambar').src = 'jambu.jpg';
+            
+        }else if(gambar == 'apel'){
+            document.getElementById('gambar').src = 'apel.jpg';
+       
+        }else{
+            
+        }
+    </script>
+</body>
+</html>
